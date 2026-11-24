@@ -1,321 +1,1534 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ST. PETROC PREMIER SCHOOLS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <meta name="description" content="Gareth Motors - Kenya's automotive marketplace. Discover cars, SUVs, pickups, trucks, commercial vehicles and exclusive luxury automobiles.">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="keywords" content="Gareth Motors, cars for sale Kenya, used cars Kenya, luxury cars, SUVs, pickups, trucks, vehicle marketplace">
+
+    <meta name="author" content="Gareth Motors">
+    <meta name="theme-color" content="#101014">
+
+    <title>GARETH MOTORS | Every Vehicle. Every Journey.</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- WEBSITE CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header>
-
-<div class="logo">
-<h2>ST. PETROC PREMIER SCHOOLS</h2>
+<!-- PAGE LOADER -->
+<div class="loader" id="loader">
+    <div class="loader-content">
+        <h1>GARETH <span>MOTORS</span></h1>
+        <div class="loader-line"></div>
+        <p>THE ART OF AUTOMOTIVE EXCELLENCE</p>
+    </div>
 </div>
 
-<nav>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#admissions">Admissions</a></li>
-<li><a href="#programmes">Programmes</a></li>
-<li><a href="#research">Research</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
+<!-- TOP BAR -->
+<div class="topbar">
+
+    <div class="topbar-left">
+        <span>
+            <i class="fas fa-location-dot"></i>
+            Kenya
+        </span>
+
+        <span>
+            <i class="fas fa-envelope"></i>
+            info@garethmotors.com
+        </span>
+    </div>
+
+    <div class="topbar-right">
+        <span>YOUR TRUSTED AUTOMOTIVE DESTINATION</span>
+
+        <a href="#contact">
+            Contact Us
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+
+</div>
+
+<!-- MAIN NAVIGATION -->
+<header class="header" id="header">
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            GARETH<span>MOTORS</span>
+            <small>PRESTIGE AUTOMOTIVE</small>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#inventory">Browse Vehicles</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#sell">Sell Your Vehicle</a></li>
+            <li><a href="#services">VIP Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-actions">
+
+            <button class="login-btn" data-open-modal="accountModal">
+                <i class="far fa-user"></i>
+                Sign In
+            </button>
+
+            <a href="#sell" class="nav-button">
+                SELL YOUR CAR
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </nav>
 
 </header>
 
+<main>
+
 <!-- HERO SECTION -->
-<section id="home" class="hero">
+<section class="hero" id="home">
 
-<div class="overlay">
+    <div class="hero-background">
+        
+<div class="hero-background">
+    <div class="hero-slides">
+        <div class="hero-slide active">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2000&q=90" alt="Luxury sports car">
+        </div>
 
-<h1>Building Tomorrow's Leaders Today</h1>
+        <div class="hero-slide">
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=2000&q=90" alt="Luxury SUV">
+        </div>
 
-<p>
-Empowering minds through education,
-innovation and research.
-</p>
+        <div class="hero-slide">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=90" alt="Luxury Porsche">
+        </div>
 
-<a href="#admissions" class="btn">
-Apply Now
-</a>
+        <div class="hero-slide">
+            <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=2000&q=90" alt="Mercedes-Benz">
+        </div>
+    </div>
+</div>
+
+        >
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="hero-subtitle">
+            <span></span>
+            KENYA'S AUTOMOTIVE DESTINATION
+        </span>
+
+        <h1>
+            FIND YOUR
+            <span>PERFECT DRIVE.</span>
+        </h1>
+
+        <p>
+            Discover thousands of possibilities, from everyday
+            vehicles to extraordinary luxury automobiles.
+            Your next journey begins at Gareth Motors.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#inventory" class="btn btn-gold">
+                EXPLORE VEHICLES
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <a href="#sell" class="btn btn-outline">
+                SELL YOUR VEHICLE
+            </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <h3>ALL</h3>
+                <p>Vehicle Categories</p>
+            </div>
+
+            <div>
+                <h3>PREMIUM</h3>
+                <p>Customer Experience</p>
+            </div>
+
+            <div>
+                <h3>KENYA</h3>
+                <p>Our Marketplace</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+        <span>SCROLL TO EXPLORE</span>
+        <i class="fas fa-arrow-down"></i>
+    </div>
+
+</section>
+
+<!-- ADVANCED VEHICLE SEARCH -->
+<section class="search-section" id="vehicleSearch">
+
+    <div class="search-heading">
+
+        <div>
+            <span class="section-label">FIND YOUR NEXT VEHICLE</span>
+            <h2>SEARCH OUR <span>INVENTORY</span></h2>
+        </div>
+
+        <p>Thousands of possibilities. One destination.</p>
+
+    </div>
+
+    <form class="vehicle-search-form" id="vehicleSearchForm">
+
+        <div class="search-field">
+            <label for="searchKeyword">Keyword</label>
+            <input
+                type="search"
+                id="searchKeyword"
+                placeholder="Search make or model..."
+            >
+        </div>
+
+        <div class="search-field">
+            <label for="searchCategory">Vehicle Category</label>
+
+            <select id="searchCategory">
+                <option value="">All Categories</option>
+                <option value="sedan">Sedans</option>
+                <option value="suv">SUVs</option>
+                <option value="pickup">Pickups</option>
+                <option value="supercar">Sports & Supercars</option>
+                <option value="van">Vans</option>
+                <option value="truck">Trucks</option>
+                <option value="bus">Buses & Minibuses</option>
+                <option value="commercial">Commercial Vehicles</option>
+            </select>
+        </div>
+
+        <div class="search-field">
+            <label for="searchMinPrice">Minimum Price</label>
+
+            <select id="searchMinPrice">
+                <option value="">Any Minimum</option>
+                <option value="500000">KES 500,000</option>
+                <option value="1000000">KES 1 Million</option>
+                <option value="2000000">KES 2 Million</option>
+                <option value="5000000">KES 5 Million</option>
+                <option value="10000000">KES 10 Million</option>
+            </select>
+        </div>
+
+        <div class="search-field">
+            <label for="searchMaxPrice">Maximum Price</label>
+
+            <select id="searchMaxPrice">
+                <option value="">Any Maximum</option>
+                <option value="1000000">KES 1 Million</option>
+                <option value="2000000">KES 2 Million</option>
+                <option value="5000000">KES 5 Million</option>
+                <option value="10000000">KES 10 Million</option>
+                <option value="20000000">KES 20 Million</option>
+                <option value="50000000">KES 50 Million</option>
+            </select>
+        </div>
+
+        <button type="submit" class="search-submit">
+            <i class="fas fa-search"></i>
+            SEARCH VEHICLES
+        </button>
+
+    </form>
+
+</section>
+
+<!-- VEHICLE CATEGORIES -->
+<section class="categories section-padding" id="categories">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="section-label">EXPLORE THE MARKETPLACE</span>
+            <h2>VEHICLE <span>CATEGORIES</span></h2>
+        </div>
+
+        <p>
+            From practical everyday transportation
+            to extraordinary automotive machines.
+        </p>
+
+    </div>
+
+    <div class="category-grid">
+
+        <a href="#inventory" class="category-card"
+            data-category-link="sedan">
+            <div class="category-icon">
+                <i class="fas fa-car"></i>
+            </div>
+            <h3>SEDANS</h3>
+            <p>Comfortable everyday vehicles</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+        <a href="#inventory" class="category-card"
+            data-category-link="suv">
+            <div class="category-icon">
+                <i class="fas fa-truck-monster"></i>
+            </div>
+            <h3>SUVs</h3>
+            <p>Versatility and capability</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+        <a href="#inventory" class="category-card"
+            data-category-link="pickup">
+            <div class="category-icon">
+                <i class="fas fa-truck-pickup"></i>
+            </div>
+            <h3>PICKUPS</h3>
+            <p>Built for work and adventure</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+        <a href="#inventory" class="category-card"
+            data-category-link="supercar">
+            <div class="category-icon">
+                <i class="fas fa-gauge-high"></i>
+            </div>
+            <h3>SPORTS CARS</h3>
+            <p>Performance and excitement</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+        <a href="#inventory" class="category-card"
+            data-category-link="van">
+            <div class="category-icon">
+                <i class="fas fa-van-shuttle"></i>
+            </div>
+            <h3>VANS</h3>
+            <p>Space for every purpose</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+        <a href="#inventory" class="category-card"
+            data-category-link="truck">
+            <div class="category-icon">
+                <i class="fas fa-truck"></i>
+            </div>
+            <h3>TRUCKS</h3>
+            <p>Heavy-duty transportation</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+        <a href="#inventory" class="category-card"
+            data-category-link="bus">
+            <div class="category-icon">
+                <i class="fas fa-bus"></i>
+            </div>
+            <h3>BUSES</h3>
+            <p>Passenger transportation</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+        <a href="#inventory" class="category-card"
+            data-category-link="commercial">
+            <div class="category-icon">
+                <i class="fas fa-industry"></i>
+            </div>
+            <h3>COMMERCIAL</h3>
+            <p>Vehicles for business</p>
+            <span>EXPLORE <i class="fas fa-arrow-right"></i></span>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- INVENTORY SECTION: INSERT AFTER CATEGORIES -->
+<section class="inventory-section" id="inventory">
+    <div class="section-heading">
+        <span class="eyebrow">OUR COLLECTION</span>
+        <h2>Explore Our Premium Inventory</h2>
+        <p>Discover carefully selected vehicles for every journey.</p>
+    </div>
+
+    <div class="inventory-toolbar">
+        <div class="inventory-count">
+            <strong>Featured Vehicles</strong>
+            <span>Premium selection</span>
+        </div>
+        <div class="inventory-filters">
+            <select id="sortVehicles" aria-label="Sort vehicles">
+                <option value="default">Sort: Recommended</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="newest">Newest First</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="vehicle-grid" id="vehicleGrid">
+
+        <!-- VEHICLE 1 -->
+        <article class="vehicle-card" data-category="suv"
+            data-price="12500000" data-year="2022"
+            data-name="Toyota Land Cruiser V8">
+            <div class="vehicle-image">
+                <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85"
+                     alt="Toyota Land Cruiser V8" loading="lazy">
+                <span class="vehicle-tag">Featured</span>
+                <button class="favorite-btn" type="button" aria-label="Add to favourites">♡</button>
+            </div>
+            <div class="vehicle-info">
+                <div class="vehicle-title">
+                    <h3>Toyota Land Cruiser V8</h3>
+                    <span>2022</span>
+                </div>
+                <p class="vehicle-meta">35,000 km · Automatic · Diesel</p>
+                <div class="vehicle-price">KES 12,500,000</div>
+                <div class="vehicle-actions">
+                    <button type="button" class="view-details-btn"
+                        data-vehicle="vehicle-001">View Details</button>
+                    <button type="button" class="compare-btn"
+                        data-compare="vehicle-001">Compare</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- VEHICLE 2 -->
+        <article class="vehicle-card" data-category="sedan"
+            data-price="4200000" data-year="2021"
+            data-name="Mercedes-Benz C-Class C200">
+            <div class="vehicle-image">
+                <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85"
+                     alt="Mercedes-Benz C-Class" loading="lazy">
+                <span class="vehicle-tag">Luxury Sedan</span>
+                <button class="favorite-btn" type="button" aria-label="Add to favourites">♡</button>
+            </div>
+            <div class="vehicle-info">
+                <div class="vehicle-title">
+                    <h3>Mercedes-Benz C-Class C200</h3>
+                    <span>2021</span>
+                </div>
+                <p class="vehicle-meta">42,000 km · Automatic · Petrol</p>
+                <div class="vehicle-price">KES 4,200,000</div>
+                <div class="vehicle-actions">
+                    <button type="button" class="view-details-btn"
+                        data-vehicle="vehicle-002">View Details</button>
+                    <button type="button" class="compare-btn"
+                        data-compare="vehicle-002">Compare</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- VEHICLE 3 -->
+        <article class="vehicle-card" data-category="supercar"
+            data-price="85000000" data-year="2023"
+            data-name="Rolls-Royce Phantom VIII">
+            <div class="vehicle-image">
+                <img src="https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=1200&q=85"
+                     alt="Luxury Rolls-Royce vehicle" loading="lazy">
+                <span class="vehicle-tag">Exclusive</span>
+                <button class="favorite-btn" type="button" aria-label="Add to favourites">♡</button>
+            </div>
+            <div class="vehicle-info">
+                <div class="vehicle-title">
+                    <h3>Rolls-Royce Phantom VIII</h3>
+                    <span>2023</span>
+                </div>
+                <p class="vehicle-meta">8,000 km · Automatic · Petrol</p>
+                <div class="vehicle-price">KES 85,000,000</div>
+                <div class="vehicle-actions">
+                    <button type="button" class="view-details-btn"
+                        data-vehicle="vehicle-003">View Details</button>
+                    <button type="button" class="compare-btn"
+                        data-compare="vehicle-003">Compare</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- VEHICLE 4 -->
+        <article class="vehicle-card" data-category="pickup"
+            data-price="6500000" data-year="2022"
+            data-name="Toyota Hilux Double Cab">
+            <div class="vehicle-image">
+                <img src="https://images.unsplash.com/photo-1625231334168-35067f8853ed?auto=format&fit=crop&w=1200&q=85"
+                     alt="Toyota Hilux pickup" loading="lazy">
+                <span class="vehicle-tag">Reliable Performance</span>
+                <button class="favorite-btn" type="button" aria-label="Add to favourites">♡</button>
+            </div>
+            <div class="vehicle-info">
+                <div class="vehicle-title">
+                    <h3>Toyota Hilux Double Cab</h3>
+                    <span>2022</span>
+                </div>
+                <p class="vehicle-meta">48,000 km · Manual · Diesel</p>
+                <div class="vehicle-price">KES 6,500,000</div>
+                <div class="vehicle-actions">
+                    <button type="button" class="view-details-btn"
+                        data-vehicle="vehicle-004">View Details</button>
+                    <button type="button" class="compare-btn"
+                        data-compare="vehicle-004">Compare</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- VEHICLE 5 -->
+        <article class="vehicle-card" data-category="suv"
+            data-price="14500000" data-year="2023"
+            data-name="Range Rover Sport Dynamic">
+            <div class="vehicle-image">
+                <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=85"
+                     alt="Range Rover Sport" loading="lazy">
+                <span class="vehicle-tag">Premium SUV</span>
+                <button class="favorite-btn" type="button" aria-label="Add to favourites">♡</button>
+            </div>
+            <div class="vehicle-info">
+                <div class="vehicle-title">
+                    <h3>Range Rover Sport Dynamic</h3>
+                    <span>2023</span>
+                </div>
+                <p class="vehicle-meta">18,000 km · Automatic · Petrol</p>
+                <div class="vehicle-price">KES 14,500,000</div>
+                <div class="vehicle-actions">
+                    <button type="button" class="view-details-btn"
+                        data-vehicle="vehicle-005">View Details</button>
+                    <button type="button" class="compare-btn"
+                        data-compare="vehicle-005">Compare</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- PART 2 CONTINUES HERE WITH VEHICLE 6: BMW X5 -->
+
+
+<!-- VEHICLE 6 -->
+
+<article class="car-card"
+    data-id="vehicle-006"
+    data-name="BMW X5"
+    data-brand="BMW"
+    data-category="suv"
+    data-price="9500000"
+    data-year="2022"
+    data-mileage="30000"
+    data-condition="Used"
+    data-status="demo">
+
+    <div class="car-image">
+
+        <img
+            src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=85"
+            alt="BMW X5 representative vehicle photograph"
+            loading="lazy"
+        >
+
+        <span class="car-tag">EXECUTIVE SUV</span>
+        <span class="condition-tag">USED</span>
+
+        <button class="favorite-btn"
+            aria-label="Add BMW X5 to favourites">
+            <i class="far fa-heart"></i>
+        </button>
+
+    </div>
+
+    <div class="car-info">
+
+        <div class="car-brand">BMW</div>
+        <h3>X5 xDrive</h3>
+
+        <p class="car-location">
+            <i class="fas fa-location-dot"></i>
+            Kisumu, Kenya
+        </p>
+
+        <div class="car-specs">
+            <span><i class="fas fa-calendar"></i> 2022</span>
+            <span><i class="fas fa-gauge"></i> 30,000 km</span>
+            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+            <span><i class="fas fa-gears"></i> Automatic</span>
+        </div>
+
+        <div class="car-price-row">
+            <div>
+                <span class="price-label">ASKING PRICE</span>
+                <h4>KES 9,500,000</h4>
+            </div>
+            <span class="listing-status">DEMO</span>
+        </div>
+
+        <div class="car-actions">
+
+            <button class="details-btn"
+                data-view-vehicle="vehicle-006">
+                VIEW DETAILS
+                <i class="fas fa-arrow-right"></i>
+            </button>
+
+            <button class="compare-btn"
+                data-compare="vehicle-006">
+                <i class="fas fa-scale-balanced"></i>
+                COMPARE
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
+
+</div>
+
+<div class="no-results" id="noResults" hidden>
+
+    <i class="fas fa-car"></i>
+    <h3>No vehicles found</h3>
+    <p>Try adjusting your search or filters.</p>
+
+</div>
+
+<div class="inventory-footer">
+
+    <a href="#inventory" class="btn btn-dark">
+        VIEW ALL VEHICLES
+        <i class="fas fa-arrow-right"></i>
+    </a>
 
 </div>
 
 </section>
 
-<!-- QUICK LINKS -->
-<section class="quick-links">
+<!-- VEHICLE COMPARISON TRAY -->
+<div class="compare-tray" id="compareTray" hidden>
 
-<div class="card">
-<i class="fa-solid fa-user-graduate"></i>
-<h3>Student Portal</h3>
+    <div class="compare-tray-content">
+
+        <div>
+            <strong>COMPARE VEHICLES</strong>
+            <span id="compareCount">0 vehicles selected</span>
+        </div>
+
+        <div class="compare-actions">
+
+            <button id="clearCompare">CLEAR</button>
+
+            <button id="compareNow" class="btn btn-gold">
+                COMPARE NOW
+                <i class="fas fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
 </div>
 
-<div class="card">
-<i class="fa-solid fa-book"></i>
-<h3>Library</h3>
+<!-- VEHICLE DETAILS MODAL -->
+<div class="modal-overlay" id="vehicleModal" aria-hidden="true">
+
+    <div class="modal-content vehicle-modal-content">
+
+        <button class="modal-close" data-close-modal
+            aria-label="Close vehicle details">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div id="vehicleModalContent">
+            <!-- JavaScript inserts vehicle details here -->
+        </div>
+
+    </div>
+
 </div>
 
-<div class="card">
-<i class="fa-solid fa-laptop"></i>
-<h3>E-Learning</h3>
+<!-- VEHICLE COMPARISON MODAL -->
+<div class="modal-overlay" id="comparisonModal" aria-hidden="true">
+
+    <div class="modal-content comparison-modal-content">
+
+        <button class="modal-close" data-close-modal
+            aria-label="Close comparison">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div id="comparisonContent">
+            <!-- JavaScript inserts comparison table here -->
+        </div>
+
+    </div>
+
 </div>
 
-<div class="card">
-<i class="fa-solid fa-school"></i>
-<h3>Admissions</h3>
-</div>
+<!-- FEATURED LUXURY COLLECTION -->
+<section class="luxury-section section-padding">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="section-label">THE PRESTIGE COLLECTION</span>
+            <h2>EXPERIENCE <span>EXCLUSIVITY</span></h2>
+        </div>
+
+        <p>
+            Discover a special collection of
+            distinguished luxury and performance vehicles.
+        </p>
+
+    </div>
+
+    <div class="luxury-banner">
+
+        <div class="luxury-banner-content">
+
+            <span>THE GARETH MOTORS EXPERIENCE</span>
+
+            <h2>
+                BEYOND
+                <span>ORDINARY.</span>
+            </h2>
+
+            <p>
+                Discover extraordinary vehicles,
+                exceptional craftsmanship and
+                premium automotive experiences.
+            </p>
+
+            <a href="#inventory" class="btn btn-gold">
+                EXPLORE LUXURY VEHICLES
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <div class="luxury-banner-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=1400&q=85"
+                alt="Luxury vehicle representative photograph"
+                loading="lazy"
+            >
+
+        </div>
+
+    </div>
 
 </section>
 
-<!-- ABOUT SECTION -->
-<section id="about" class="about">
+<!-- SELL YOUR VEHICLE -->
+<section class="sell-section section-padding" id="sell">
 
-<h2>About Us</h2>
+    <div class="sell-content">
 
-<p>
-ST. PETROC PREMIER SCHOOLS is dedicated to providing quality education,
-fostering innovation, and nurturing future leaders. We strive to create
-an environment that promotes academic excellence, research, and personal growth.
-</p>
+        <span class="section-label">SELL WITH GARETH MOTORS</span>
 
-<div class="about-grid">
+        <h2>
+            READY TO SELL
+            <span>YOUR VEHICLE?</span>
+        </h2>
 
-<div class="card">
-<h3>Our Mission</h3>
-<p>
-To empower learners with knowledge, skills, and values necessary
-for success in a dynamic global society.
-</p>
-</div>
+        <p>
+            Submit your vehicle details and let
+            Gareth Motors review your listing.
+            Our team will contact you regarding
+            the next steps.
+        </p>
 
-<div class="card">
-<h3>Our Vision</h3>
-<p>
-To be a leading educational institution recognized for excellence,
-innovation, and societal impact.
-</p>
-</div>
+        <div class="sell-benefits">
 
-<div class="card">
-<h3>Core Values</h3>
-<p>
-Integrity, Excellence, Innovation, Diversity, Accountability,
-and Community Service.
-</p>
-</div>
+            <div>
+                <i class="fas fa-camera"></i>
+                <span>Upload vehicle photographs</span>
+            </div>
 
-</div>
+            <div>
+                <i class="fas fa-clipboard-check"></i>
+                <span>Professional listing review</span>
+            </div>
 
-</section>
+            <div>
+                <i class="fas fa-handshake"></i>
+                <span>Direct dealership assistance</span>
+            </div>
 
-<!-- ADMISSIONS SECTION -->
-<section id="admissions" class="admissions">
+        </div>
 
-<h2>Admissions</h2>
+        <a href="#sellerForm" class="btn btn-gold">
+            SUBMIT YOUR VEHICLE
+            <i class="fas fa-arrow-right"></i>
+        </a>
 
-<p>
-Applications are open throughout the year for qualified students.
-Join a vibrant academic community committed to excellence.
-</p>
+    </div>
 
-<div class="about-grid">
+    <div class="sell-form-container" id="sellerForm">
 
-<div class="card">
-<h3>Entry Requirements</h3>
-<p>
-Applicants must meet the minimum academic requirements for their chosen programme.
-</p>
-</div>
+        <form class="sell-form" id="sellVehicleForm">
 
-<div class="card">
-<h3>Application Process</h3>
-<p>
-Complete the application form, submit supporting documents,
-and pay the required application fee.
-</p>
-</div>
+            <h3>VEHICLE SUBMISSION</h3>
+            <p>Provide the details of your vehicle.</p>
 
-<div class="card">
-<h3>Scholarships</h3>
-<p>
-Merit-based and need-based scholarships are available for eligible students.
-</p>
-</div>
+            <div class="form-group">
+                <label for="sellerName">Your Full Name</label>
+                <input type="text" id="sellerName"
+                    placeholder="Enter your name" required>
+            </div>
 
-</div>
+            <div class="form-row">
 
-</section>
+                <div class="form-group">
+                    <label for="sellerPhone">Phone Number</label>
+                    <input type="tel" id="sellerPhone"
+                        placeholder="+254..." required>
+                </div>
 
-<!-- PROGRAMMES SECTION -->
-<section id="programmes" class="programs">
+                <div class="form-group">
+                    <label for="sellerEmail">Email Address</label>
+                    <input type="email" id="sellerEmail"
+                        placeholder="Email address" required>
+                </div>
 
-<h2>Academic Programmes</h2>
+            </div>
 
-<div class="program-grid">
+            <div class="form-row">
 
-<div class="program">
-<h3>Certificate</h3>
-<p>
-Professional certificate courses designed to build practical skills.
-</p>
-</div>
+                <div class="form-group">
+                    <label for="sellerMake">Vehicle Make</label>
+                    <input type="text" id="sellerMake"
+                        placeholder="e.g. Toyota" required>
+                </div>
 
-<div class="program">
-<h3>Diploma</h3>
-<p>
-Industry-focused diploma programmes that prepare students for employment.
-</p>
-</div>
+                <div class="form-group">
+                    <label for="sellerModel">Vehicle Model</label>
+                    <input type="text" id="sellerModel"
+                        placeholder="e.g. Prado" required>
+                </div>
 
-<div class="program">
-<h3>Degree</h3>
-<p>
-Comprehensive undergraduate programmes across multiple disciplines.
-</p>
-</div>
+            </div>
 
-<div class="program">
-<h3>Masters</h3>
-<p>
-Advanced postgraduate studies for professional and academic growth.
-</p>
-</div>
+            <div class="form-row">
 
-</div>
+                <div class="form-group">
+                    <label for="sellerYear">Year</label>
+                    <input type="number" id="sellerYear"
+                        min="1950" max="2035"
+                        placeholder="2022" required>
+                </div>
 
-</section>
+                <div class="form-group">
+                    <label for="sellerMileage">Mileage (KM)</label>
+                    <input type="number" id="sellerMileage"
+                        min="0" placeholder="35000" required>
+                </div>
 
-<!-- RESEARCH SECTION -->
-<section id="research" class="research">
+            </div>
 
-<h2>Research & Innovation</h2>
+            <div class="form-row">
 
-<p>
-Research is at the heart of our institution. We encourage innovation,
-critical thinking, and collaborative problem-solving to address
-local and global challenges.
-</p>
+                <div class="form-group">
+                    <label for="sellerCategory">Category</label>
 
-<div class="about-grid">
+                    <select id="sellerCategory" required>
+                        <option value="">Select category</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="pickup">Pickup</option>
+                        <option value="supercar">Sports Car</option>
+                        <option value="van">Van</option>
+                        <option value="truck">Truck</option>
+                        <option value="bus">Bus</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
 
-<div class="card">
-<h3>Research Centres</h3>
-<p>
-Specialized research units supporting scientific and social innovation.
-</p>
-</div>
+                <div class="form-group">
+                    <label for="sellerCondition">Condition</label>
 
-<div class="card">
-<h3>Innovation Hub</h3>
-<p>
-Providing students with opportunities to transform ideas into impactful solutions.
-</p>
-</div>
+                    <select id="sellerCondition" required>
+                        <option value="">Select condition</option>
+                        <option value="new">Brand New</option>
+                        <option value="used">Used</option>
+                        <option value="refurbished">Refurbished</option>
+                    </select>
+                </div>
 
-<div class="card">
-<h3>Publications</h3>
-<p>
-Faculty and students actively publish research in reputable journals.
-</p>
-</div>
+            </div>
 
-</div>
+            <div class="form-group">
+                <label for="sellerPrice">Asking Price (KES)</label>
+                <input type="number" id="sellerPrice"
+                    min="1" placeholder="Enter asking price" required>
+            </div>
 
-</section>
+            <div class="form-group">
+                <label for="sellerDescription">Vehicle Description</label>
+                <textarea id="sellerDescription" rows="4"
+                    placeholder="Describe the condition and features of your vehicle..."
+                    required></textarea>
+            </div>
 
-<!-- NEWS SECTION -->
-<section class="news">
+            <div class="form-group">
+                <label for="sellerImages">Vehicle Photographs</label>
+                <input type="file" id="sellerImages"
+                    accept="image/*" multiple required>
+                <small>Upload clear photographs of your vehicle.</small>
+            </div>
 
-<h2>Latest News</h2>
+            <label class="checkbox-label">
+                <input type="checkbox" id="sellerAgreement" required>
+                I confirm that the information provided is accurate
+                and that I am authorized to submit this vehicle.
+            </label>
 
-<div class="news-container">
+            <button type="submit" class="btn btn-gold submit-btn">
+                SUBMIT FOR REVIEW
+                <i class="fas fa-paper-plane"></i>
+            </button>
 
-<div class="news-card">
-<h3>University Open Day</h3>
-<p>
-Join us for our annual open day and explore our academic programmes.
-</p>
-</div>
+            <p class="form-note">
+                All submissions require dealership approval
+                before appearing publicly.
+            </p>
 
-<div class="news-card">
-<h3>Research Conference</h3>
-<p>
-International research conference bringing together scholars and innovators.
-</p>
-</div>
+        </form>
 
-<div class="news-card">
-<h3>Scholarship Opportunities</h3>
-<p>
-Applications for academic scholarships are now open.
-</p>
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<!-- CONTACT SECTION -->
-<section id="contact" class="contact">
+<!-- WHY CHOOSE GARETH MOTORS -->
+<section class="why-us section-padding">
 
-<h2>Contact Us</h2>
+    <div class="section-heading">
 
-<div class="contact-container">
+        <div>
+            <span class="section-label">THE GARETH MOTORS STANDARD</span>
+            <h2>MORE THAN JUST <span>A MARKETPLACE.</span></h2>
+        </div>
 
-<div class="contact-info">
+        <p>
+            We aim to make every vehicle discovery
+            and customer interaction exceptional.
+        </p>
 
-<h3>Get In Touch</h3>
+    </div>
 
-<p><strong>Address:</strong> Nairobi, Kenya</p>
+    <div class="why-grid">
 
-<p><strong>Phone:</strong> +254 700 000 000</p>
+        <div class="why-card">
+            <i class="fas fa-car"></i>
+            <h3>WIDE VEHICLE SELECTION</h3>
+            <p>
+                Explore different makes, models,
+                vehicle types and price ranges.
+            </p>
+        </div>
 
-<p><strong>Email:</strong> info@stjohnslearningcenter.ac.ke</p>
+        <div class="why-card">
+            <i class="fas fa-shield-halved"></i>
+            <h3>REVIEWED LISTINGS</h3>
+            <p>
+                Submitted listings are reviewed
+                by the dealership before publication.
+            </p>
+        </div>
 
-<p><strong>Office Hours:</strong> Monday - Friday, 8:00 AM - 5:00 PM</p>
+        <div class="why-card">
+            <i class="fas fa-headset"></i>
+            <h3>PERSONAL ASSISTANCE</h3>
+            <p>
+                Get assistance with vehicle enquiries
+                and arranging vehicle viewings.
+            </p>
+        </div>
 
-</div>
+        <div class="why-card">
+            <i class="fas fa-gem"></i>
+            <h3>PREMIUM EXPERIENCE</h3>
+            <p>
+                Enjoy a marketplace that combines
+                convenience with automotive excellence.
+            </p>
+        </div>
 
-<form class="contact-form">
-
-<input type="text" placeholder="Your Name" required>
-
-<input type="email" placeholder="Your Email" required>
-
-<input type="text" placeholder="Subject" required>
-
-<textarea rows="5" placeholder="Your Message" required></textarea>
-
-<button type="submit" class="btn">
-Send Message
-</button>
-
-</form>
-
-</div>
+    </div>
 
 </section>
+
+<!-- VIP SERVICES -->
+<section class="services section-padding" id="services">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="section-label">BEYOND AUTOMOTIVE</span>
+            <h2>EXCLUSIVE <span>VIP SERVICES</span></h2>
+        </div>
+
+        <p>
+            Premium mobility and executive support
+            designed around your comfort and security.
+        </p>
+
+    </div>
+
+    <div class="service-grid">
+
+        <article class="service-card">
+
+            <div class="service-image">
+                <img
+                    src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=85"
+                    alt="Premium chauffeur transportation"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="service-content">
+
+                <i class="fas fa-car-side"></i>
+                <span>01 / PRIVATE MOBILITY</span>
+                <h3>VIP CHAUFFEUR SERVICES</h3>
+
+                <p>
+                    Premium private transportation
+                    for corporate travel, airport transfers,
+                    leisure and special occasions.
+                </p>
+
+                <ul>
+                    <li>Airport transfers</li>
+                    <li>Corporate transportation</li>
+                    <li>Private luxury travel</li>
+                    <li>Special event transport</li>
+                </ul>
+
+                <a href="#contact" class="service-link"
+                    data-service="VIP Chauffeur Services">
+                    REQUEST A CHAUFFEUR
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+        <article class="service-card">
+
+            <div class="service-image">
+                <img
+                    src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85"
+                    alt="Premium executive vehicle"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="service-content">
+
+                <i class="fas fa-user-shield"></i>
+                <span>02 / EXECUTIVE PROTECTION</span>
+                <h3>VIP SECURITY ESCORTS</h3>
+
+                <p>
+                    Enquire about lawful executive protection
+                    and coordinated escort arrangements
+                    for authorized clients.
+                </p>
+
+                <ul>
+                    <li>Executive protection coordination</li>
+                    <li>Professional escort arrangements</li>
+                    <li>VIP event security enquiries</li>
+                    <li>Private travel security planning</li>
+                </ul>
+
+                <a href="#contact" class="service-link"
+                    data-service="VIP Security Escort">
+                    ENQUIRE ABOUT SECURITY
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+    <p class="service-disclaimer">
+        Security services are subject to applicable licensing,
+        lawful authorization and qualified personnel.
+    </p>
+
+</section>
+
+<!-- CUSTOMER TESTIMONIALS -->
+<section class="testimonials section-padding">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="section-label">CUSTOMER EXPERIENCES</span>
+            <h2>BUILT AROUND <span>YOUR JOURNEY.</span></h2>
+        </div>
+
+        <p>
+            Our commitment is to deliver a professional
+            and memorable automotive experience.
+        </p>
+
+    </div>
+
+    <div class="testimonial-grid">
+
+        <article class="testimonial-card">
+            <i class="fas fa-quote-left"></i>
+            <p>
+                A great vehicle marketplace should make
+                finding the right car simple and convenient.
+            </p>
+            <h4>GARETH MOTORS</h4>
+            <span>Our service commitment</span>
+        </article>
+
+        <article class="testimonial-card">
+            <i class="fas fa-quote-left"></i>
+            <p>
+                We believe in transparency, attention
+                to detail and professional customer support.
+            </p>
+            <h4>GARETH MOTORS</h4>
+            <span>Our customer promise</span>
+        </article>
+
+        <article class="testimonial-card">
+            <i class="fas fa-quote-left"></i>
+            <p>
+                Every journey deserves the right vehicle
+                and an exceptional experience.
+            </p>
+            <h4>GARETH MOTORS</h4>
+            <span>Our philosophy</span>
+        </article>
+
+    </div>
+
+    <p class="testimonial-note">
+        These are brand statements, not customer reviews.
+        Genuine customer testimonials can be added after launch.
+    </p>
+
+</section>
+
+<!-- ABOUT THE COMPANY -->
+<section class="about section-padding" id="about">
+
+    <div class="about-image">
+        <img
+            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=85"
+            alt="Premium automotive collection"
+            loading="lazy"
+        >
+    </div>
+
+    <div class="about-content">
+
+        <span class="section-label">OUR IDENTITY</span>
+
+        <h2>WELCOME TO <span>GARETH MOTORS.</span></h2>
+
+        <p>
+            Gareth Motors is an automotive marketplace
+            built to connect customers with vehicles
+            across different categories and price ranges.
+        </p>
+
+        <p>
+            From everyday cars and commercial vehicles
+            to distinguished luxury automobiles,
+            our goal is to make vehicle discovery
+            convenient and professional.
+        </p>
+
+        <p>
+            We also offer enquiries for premium chauffeur
+            services and executive security arrangements.
+        </p>
+
+        <a href="#contact" class="btn btn-gold">
+            CONNECT WITH US
+            <i class="fas fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FINANCING ENQUIRIES -->
+<section class="finance-section section-padding" id="finance">
+
+    <div class="finance-content">
+
+        <span class="section-label">YOUR NEXT VEHICLE</span>
+
+        <h2>EXPLORE YOUR <span>FINANCING OPTIONS.</span></h2>
+
+        <p>
+            Interested in financing a vehicle?
+            Contact our team to discuss your requirements
+            and available financing arrangements.
+        </p>
+
+        <a href="#contact" class="btn btn-gold"
+            data-service="Vehicle Financing Enquiry">
+            MAKE A FINANCING ENQUIRY
+            <i class="fas fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+    <div class="finance-icon">
+        <i class="fas fa-wallet"></i>
+    </div>
+
+</section>
+
+<!-- CONTACT SECTION - CONTINUED IN PART 3 -->
+<section class="contact section-padding" id="contact">
+
+    <div class="contact-heading">
+
+        <span class="section-label">WE ARE HERE TO HELP</span>
+
+        <h2>LET'S MAKE IT <span>EXTRAORDINARY.</span></h2>
+
+        <p>
+            Looking for a vehicle, arranging a viewing
+            or interested in our premium services?
+            Get in touch with us.
+        </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-info">
+
+            <h3>GET IN TOUCH</h3>
+
+            <p>
+                Our team is ready to assist with
+                your automotive enquiries.
+            </p>
+
+            <div class="contact-item">
+                <i class="fas fa-location-dot"></i>
+                <div>
+                    <h4>LOCATION</h4>
+                    <p>Kenya</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h4>TELEPHONE</h4>
+                    <p>+254 XXX XXX XXX</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h4>EMAIL</h4>
+                    <p>info@garethmotors.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                    <h4>BUSINESS HOURS</h4>
+                    <p>Monday - Saturday</p>
+                </div>
+            </div>
+
+            <div class="contact-social">
+                <a href="#" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <h3>SEND AN ENQUIRY</h3>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="contactName">Full Name</label>
+                    <input type="text" id="contactName"
+                        placeholder="Your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactEmail">Email Address</label>
+                    <input type="email" id="contactEmail"
+                        placeholder="Your email address" required>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label for="contactPhone">Phone Number</label>
+                <input type="tel" id="contactPhone"
+                    placeholder="+254..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="contactInterest">Service of Interest</label>
+
+                <select id="contactInterest" required>
+                    <option value="">Select a service</option>
+                    <option value="Vehicle Purchase">Vehicle Purchase</option>
+                    <option value="Vehicle Viewing">Vehicle Viewing</option>
+                    <option value="Vehicle Financing">Vehicle Financing</option>
+                    <option value="VIP Chauffeur">VIP Chauffeur</option>
+                    <option value="VIP Security">VIP Security Escort</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="contactVehicle">Preferred Vehicle</label>
+
+            <select id="contactVehicle" name="vehicle">
+                <option value="">Select a vehicle</option>
+                <option>Toyota Land Cruiser V8</option>
+                <option>Mercedes-Benz C-Class C200</option>
+                <option>Rolls-Royce Phantom VIII</option>
+                <option>Toyota Hilux Double Cab</option>
+                <option>Range Rover Sport Dynamic</option>
+                <option>BMW X5 xDrive</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="contactMessage">Your Message</label>
+            <textarea id="contactMessage" name="message" rows="5"
+                placeholder="Tell us how we can assist you..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Send Enquiry
+        </button>
+    </form>
+
+    <div class="contact-details">
+        <h3>Get in Touch</h3>
+        <p><strong>Phone:</strong> +254 700 000 000</p>
+        <p><strong>Email:</strong> info@garethmotors.com</p>
+        <p><strong>Location:</strong> Nairobi, Kenya</p>
+        <p>Contact our team for vehicle enquiries, dealership partnerships and assistance.</p>
+    </div>
+</section>
+
+<!-- NEWSLETTER SECTION -->
+<section class="newsletter-section" id="newsletter">
+    <div class="newsletter-content">
+        <span class="eyebrow">STAY CONNECTED</span>
+        <h2>Get the Latest from GARETH MOTORS</h2>
+        <p>Subscribe to receive updates on new arrivals, exclusive offers and automotive news.</p>
+
+        <form id="newsletterForm" class="newsletter-form">
+            <input type="email" id="newsletterEmail"
+                placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+<!-- ACCOUNT MODAL -->
+<div class="modal" id="accountModal" aria-hidden="true">
+    <div class="modal-content account-modal-content">
+        <button type="button" class="modal-close" data-close-modal
+            aria-label="Close">&times;</button>
+
+        <div class="account-header">
+            <span class="eyebrow">GARETH MOTORS</span>
+            <h2>Welcome Back</h2>
+            <p>Access your account to manage your automotive experience.</p>
+        </div>
+
+        <div class="account-tabs">
+            <button type="button" class="account-tab active"
+                data-account-tab="login">Login</button>
+            <button type="button" class="account-tab"
+                data-account-tab="register">Create Account</button>
+        </div>
+
+        <form id="loginForm" class="account-form">
+            <div class="form-group">
+                <label for="loginEmail">Email Address</label>
+                <input type="email" id="loginEmail"
+                    placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword"
+                    placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+
+        <form id="registerForm" class="account-form" hidden>
+            <div class="form-group">
+                <label for="registerName">Full Name</label>
+                <input type="text" id="registerName"
+                    placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="registerEmail">Email Address</label>
+                <input type="email" id="registerEmail"
+                    placeholder="Your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="registerPassword">Create Password</label>
+                <input type="password" id="registerPassword"
+                    placeholder="Create a password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="accountType">Account Type</label>
+                <select id="accountType" required>
+                    <option value="">Choose account type</option>
+                    <option value="buyer">Buyer</option>
+                    <option value="seller">Seller</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                Create Account
+            </button>
+        </form>
+
+        <p class="account-note">
+            Demo account interface. Real account registration and secure
+            authentication require a backend.
+        </p>
+    </div>
+</div>
 
 <!-- FOOTER -->
-<footer>
+<footer class="site-footer">
+    <div class="footer-main">
+        <div class="footer-brand">
+            <a href="#home" class="logo">
+                GARETH <span>MOTORS</span>
+            </a>
+            <p>
+                A premium automotive marketplace connecting buyers
+                and sellers with exceptional vehicles and service.
+            </p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="TikTok">TikTok</a>
+            </div>
+        </div>
 
-<p>
-© 2026 ST. JOHN'S LEARNING CENTER. All Rights Reserved.
-</p>
+        <div class="footer-links">
+            <h3>Explore</h3>
+            <a href="#home">Home</a>
+            <a href="#inventory">Browse Vehicles</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">About Us</a>
+        </div>
 
+        <div class="footer-links">
+            <h3>Marketplace</h3>
+            <a href="#inventory">Buy a Vehicle</a>
+            <a href="#sell">Sell Your Vehicle</a>
+            <a href="#finance">Vehicle Financing</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Contact</h3>
+            <p>Nairobi, Kenya</p>
+            <p>+254 700 000 000</p>
+            <p>info@garethmotors.com</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> GARETH MOTORS.
+            All Rights Reserved.</p>
+        <p>Driven by Excellence.</p>
+    </div>
 </footer>
 
+<!-- BACK TO TOP -->
+<button type="button" id="backToTop" class="back-to-top"
+    aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+</main>
+
+<!-- JAVASCRIPT -->
 <script src="script.js"></script>
 
 </body>
